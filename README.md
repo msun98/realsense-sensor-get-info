@@ -11,11 +11,19 @@ CONFIG(release, debug|release):LIBS += "C:\Program Files (x86)\Intel RealSense S
 # realsense의 센서 데이터를 받기 위한 헤더 추가.
 
 #include <librealsense2/rs.hpp>
+
 #include <opencv2/opencv.hpp>
+
 #include <QTimer>
+  
 #include <map>
+  
 #include <chrono>
+  
 #include <mutex>
+  
 #include <thread>
+  
 #include <string>
+  
   
