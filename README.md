@@ -4,6 +4,7 @@
 => pro 파일
 
 CONFIG(debug, debug|release):LIBS += "C:\Program Files (x86)\Intel RealSense SDK 2.0\lib\x64\realsense2.lib"
+
 CONFIG(release, debug|release):LIBS += "C:\Program Files (x86)\Intel RealSense SDK 2.0\lib\x64\realsense2.lib"
 명령어를 추가해준다.
 
