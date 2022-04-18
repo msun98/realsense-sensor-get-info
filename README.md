@@ -28,6 +28,10 @@ CONFIG(release, debug|release):LIBS += "C:\Program Files (x86)\Intel RealSense S
   
 private:
     Ui::MainWindow *ui;
+  
     rs2::pipeline pipe;
+  
     map<int, int> counters;
+  
     map<int, string> stream_names;
+  
