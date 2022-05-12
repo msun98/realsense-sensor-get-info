@@ -106,6 +106,7 @@ void MainWindow::on_feature_clicked()
 
         }
         emit stringChanged(QString::fromStdString(msg_name));//시그널 함수 생성.
+       // 신호를 날릴때는 emit 키워드를 사용하고 메서드를 호출 하면 된다.
 
 //        for(auto s : str_arr1){
 //            std::cout<<s;
