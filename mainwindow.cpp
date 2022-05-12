@@ -8,6 +8,9 @@ MainWindow::MainWindow(QWidget *parent) //생성자에서 초기화를 진행
     , ui(new Ui::MainWindow)//,cap(1)//생성자에서 이니셜라이징 오픈씨브이랑 싸우니까 둘 중에 하나만 쓰렴.
 {
     ui->setupUi(this);
+    
+//connect( SIGNAL이 발생하는 곳 , 발생SIGNAL , SLOT이 발생하는 곳, 발생SLOT)
+        
     connect(this,SIGNAL(timeout()),this,SLOT(msg()));
 //    connect(&timer,SIGNAL(timeout()),this,SLOT(timeloop()));
 
